@@ -18,9 +18,10 @@ public class SelectionSort implements SortInterface {
         int steps = 0;
         int temp;
         for (int i = 0; i < size - 1; i++) {
+            steps++;
             int minIndex = i;
             for (int j = i + 1; j < size; j++) {
-                steps++;
+
                 if (nums[j] < nums[minIndex]) {
                     minIndex = j;
                 }
