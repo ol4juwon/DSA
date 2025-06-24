@@ -2,7 +2,7 @@ package Sorting;
 
 import java.util.Arrays;
 
-public class BubbleSort {
+public class BubbleSort implements SortInterface {
     public static void main(String[] args) {
         int[] nums = {3,5,1,2,10,6,21,34,15};
         System.out.println("Before sorting"+Arrays.toString(nums) );
