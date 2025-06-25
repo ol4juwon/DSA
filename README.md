@@ -29,6 +29,8 @@
 - removeFirst
 - removeLast
 - remove
+- size
+- clear
 
 
 **_HAPPY CODING_**
