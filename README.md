@@ -8,3 +8,6 @@
 - Selection Sort
 - Insertion Sort
 - Quick Sort
+  - partitioning
+  - swapping
+  - pivot
