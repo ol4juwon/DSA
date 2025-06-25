@@ -15,6 +15,15 @@ public class QuickSort implements SortInterface{
         return quickSort(nums,0, nums.length -1);
     }
 
+    public int[] sort(int[] nums,boolean isAsc){
+        if(isAsc){
+            return quickSort(nums,0, nums.length -1);
+        }else{
+            int[] sortedNums = quickSort(nums,0, nums.length -1);
+            Arrays.sort(sortedNums);
+            return sortedNums;
+        }
+    }
     private int[] quickSort(int[] nums,int low,int high){
         if(low<high){
             int p = partition(nums,low,high);
@@ -31,7 +40,7 @@ public class QuickSort implements SortInterface{
         int i=low-1;
         for(int j=low;j<high;j++){
 
-            if(nums[j]<=pivot){
+            if(nums[j]>=pivot){
                 i++;
                 swap(nums,i,j);
             }

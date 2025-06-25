@@ -11,6 +11,8 @@
   - _partitioning_
   - _swapping_
   - _pivot_
+## Recursion
+- Factorial
 
 
 

@@ -13,6 +13,9 @@ public class Sorting {
         System.out.println("Unsorted"+Arrays.toString(nums));
         int[] snums = quickSort.sort(nums);
         System.out.println("Sorted"+Arrays.toString(snums));
+        int[] x = quickSort.sort(nums, false);
+
+        System.out.println("Sorted Descending"+Arrays.toString(x));
 
     }
 }
