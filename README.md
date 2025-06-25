@@ -8,9 +8,9 @@
 - Selection Sort
 - Insertion Sort
 - Quick Sort
-  - partitioning
-  - swapping
-  - pivot
+  - _partitioning_
+  - _swapping_
+  - _pivot_
 
 
 
