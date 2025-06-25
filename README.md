@@ -4,4 +4,7 @@
 - Binary Search
 - Binary Search using recursion
 ## Sorting
-- Bubble sort
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Quick Sort
