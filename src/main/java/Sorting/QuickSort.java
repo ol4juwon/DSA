@@ -29,17 +29,14 @@ public class QuickSort implements SortInterface{
 
         int pivot = nums[high];
         int i=low-1;
-        int steps = 0;
         for(int j=low;j<high;j++){
 
             if(nums[j]<=pivot){
-                steps++;
                 i++;
                 swap(nums,i,j);
             }
         }
         swap(nums,i+1,high);
-//        System.out.println("steps: "+steps);
         return i+1;
     }
 
