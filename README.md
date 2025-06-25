@@ -32,6 +32,15 @@
 - size
 - clear
 
+##Stack
+- pop
+- push
+- printValues
+- peek
+- isEmpty
+- isFull
+- size
+
 
 **_HAPPY CODING_**
 :grin:
