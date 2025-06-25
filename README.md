@@ -1,4 +1,4 @@
-# Data Structure and Algorithms.
+# *_Data Structure and Algorithms._*
 ## Search
 - Linear Search
 - Binary Search
