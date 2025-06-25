@@ -3,16 +3,8 @@ package Sorting;
 import java.util.Arrays;
 
 public class BubbleSort implements SortInterface {
-    public static void main(String[] args) {
-        int[] nums = {3,5,1,2,10,6,21,34,15};
-        System.out.println("Before sorting"+Arrays.toString(nums) );
-        sort(nums);
 
-            System.out.println("After sorting"+Arrays.toString(nums) );
-
-    }
-
-    public static void sort(int[] nums) {
+    public  int[] sort(int[] nums) {
         int size = nums.length;
         int steps =0;
         // iterate over  values
@@ -28,5 +20,7 @@ public class BubbleSort implements SortInterface {
             }
         }
         System.out.println("steps: "+steps);
+        System.out.println("Array: " + Arrays.toString(nums));
+        return nums;
     }
 }

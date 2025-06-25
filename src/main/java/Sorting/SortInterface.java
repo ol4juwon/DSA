@@ -2,7 +2,5 @@ package Sorting;
 
 public interface SortInterface {
 
-    public static void sort(int[] nums) {
-        
-    }
+    public int[] sort(int[] nums);
 }
