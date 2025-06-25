@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class SelectionSort implements SortInterface {
 
 
-    public  int[] sort(int[] nums) {
+    public int[] sort(int[] nums) {
 
         int size = nums.length;
         int steps = 0;
@@ -25,7 +25,7 @@ public class SelectionSort implements SortInterface {
         }
 
 //        System.out.println("Array: " + Arrays.toString(nums));
-//        System.out.println("steps: " + steps);
+        System.out.println("steps: " + steps);
 
         return nums;
     }
