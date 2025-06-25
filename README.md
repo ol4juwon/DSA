@@ -11,8 +11,10 @@
   - _partitioning_
   - _swapping_
   - _pivot_
+- Merge Sort
 ## Recursion
 - Factorial
+- Merge Sort
 
 
 
