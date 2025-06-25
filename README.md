@@ -11,3 +11,9 @@
   - partitioning
   - swapping
   - pivot
+
+
+
+**_HAPPY CODING_**
+:grin:
+:rocket: :rocket: :rocket: :rocket: :rocket: :rocket:
