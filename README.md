@@ -21,14 +21,14 @@
   - head
   - data<T>
   - next
-  - add
-  - peek
-  - printValues
-  - addFirst
-  - addLast
-  - removeFirst
-  - removeLast
-  - remove
+- add
+- peek
+- printValues
+- addFirst
+- addLast
+- removeFirst
+- removeLast
+- remove
 
 
 **_HAPPY CODING_**
