@@ -1,5 +1,5 @@
 # *_Data Structure and Algorithms._*
-## Search
+## Search 🔍
 - Linear Search
 - Binary Search
 - Binary Search using recursion
@@ -16,7 +16,7 @@
 - Factorial
 - Merge Sort
 
-## LinkedList
+## LinkedList ⛓️ 
 - Node<T>
   - head
   - data<T>
@@ -32,7 +32,7 @@
 - size
 - clear
 
-##Stack
+## Stacks 📚 
 - pop
 - push
 - printValues
@@ -41,6 +41,15 @@
 - isFull
 - size
 
+## Trees 🌲
+- Binary Tree
+  - insert
+  - printValues
+  - inorderTraversal
+  - preorderTraversal
+  - postOrderTraversal
+  - printGraphically
+  - levelOrderTraversal
 
 **_HAPPY CODING_**
 :grin:
